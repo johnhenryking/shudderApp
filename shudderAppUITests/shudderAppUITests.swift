@@ -8,7 +8,15 @@
 
 import XCTest
 
+
 class shudderAppUITests: XCTestCase {
+    
+//    func testAPIs() {
+//        XCTAssertEqual(Constants.reuseIdentifier, "Cell")
+//        XCTAssertEqual(ListInteractor.title, Constants.title)
+//        XCTAssertEqual(Constants.pathResource, "achievements")
+//        XCTAssertEqual(Constants.pathType, "json")
+//    }
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		CE4CDFC92200AC05007CE149 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CDFC82200AC05007CE149 /* AppDelegate.swift */; };
-		CE4CDFCB2200AC05007CE149 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CDFCA2200AC05007CE149 /* ViewController.swift */; };
+		CE4CDFCB2200AC05007CE149 /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CDFCA2200AC05007CE149 /* FeaturedViewController.swift */; };
 		CE4CDFCE2200AC05007CE149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4CDFCC2200AC05007CE149 /* Main.storyboard */; };
-		CE4CDFD02200AC07007CE149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4CDFCF2200AC07007CE149 /* Assets.xcassets */; };
 		CE4CDFD32200AC07007CE149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4CDFD12200AC07007CE149 /* LaunchScreen.storyboard */; };
 		CE4CDFDE2200AC07007CE149 /* shudderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CDFDD2200AC07007CE149 /* shudderAppTests.swift */; };
 		CE4CDFE92200AC07007CE149 /* shudderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CDFE82200AC07007CE149 /* shudderAppUITests.swift */; };
+		CE4CDFF82200B29A007CE149 /* FeaturedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CDFF72200B29A007CE149 /* FeaturedTableViewCell.swift */; };
+		CE4CDFFA2200BE21007CE149 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CDFF92200BE21007CE149 /* Extensions.swift */; };
+		CE4CE0012200C1E9007CE149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4CE0002200C1E9007CE149 /* Assets.xcassets */; };
+		CED128B62200CC9E0095B5DF /* FeaturedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED128B52200CC9E0095B5DF /* FeaturedCollectionViewCell.swift */; };
+		CED128BC2200EDEA0095B5DF /* NetworkManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED128BB2200EDEA0095B5DF /* NetworkManger.swift */; };
+		CED128BE2200FD220095B5DF /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED128BD2200FD220095B5DF /* CustomImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +41,8 @@
 /* Begin PBXFileReference section */
 		CE4CDFC52200AC05007CE149 /* shudderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shudderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4CDFC82200AC05007CE149 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE4CDFCA2200AC05007CE149 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE4CDFCA2200AC05007CE149 /* FeaturedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedViewController.swift; sourceTree = "<group>"; };
 		CE4CDFCD2200AC05007CE149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE4CDFCF2200AC07007CE149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4CDFD22200AC07007CE149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE4CDFD42200AC07007CE149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE4CDFD92200AC07007CE149 /* shudderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shudderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +51,12 @@
 		CE4CDFE42200AC07007CE149 /* shudderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shudderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4CDFE82200AC07007CE149 /* shudderAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shudderAppUITests.swift; sourceTree = "<group>"; };
 		CE4CDFEA2200AC07007CE149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4CDFF72200B29A007CE149 /* FeaturedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTableViewCell.swift; sourceTree = "<group>"; };
+		CE4CDFF92200BE21007CE149 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CE4CE0002200C1E9007CE149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = shudderApp/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		CED128B52200CC9E0095B5DF /* FeaturedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCollectionViewCell.swift; sourceTree = "<group>"; };
+		CED128BB2200EDEA0095B5DF /* NetworkManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManger.swift; sourceTree = "<group>"; };
+		CED128BD2200FD220095B5DF /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,7 @@
 		CE4CDFBC2200AC05007CE149 = {
 			isa = PBXGroup;
 			children = (
+				CE4CDFC82200AC05007CE149 /* AppDelegate.swift */,
 				CE4CDFC72200AC05007CE149 /* shudderApp */,
 				CE4CDFDC2200AC07007CE149 /* shudderAppTests */,
 				CE4CDFE72200AC07007CE149 /* shudderAppUITests */,
@@ -97,12 +108,13 @@
 		CE4CDFC72200AC05007CE149 /* shudderApp */ = {
 			isa = PBXGroup;
 			children = (
-				CE4CDFC82200AC05007CE149 /* AppDelegate.swift */,
-				CE4CDFCA2200AC05007CE149 /* ViewController.swift */,
 				CE4CDFCC2200AC05007CE149 /* Main.storyboard */,
-				CE4CDFCF2200AC07007CE149 /* Assets.xcassets */,
-				CE4CDFD12200AC07007CE149 /* LaunchScreen.storyboard */,
+				CE4CDFCA2200AC05007CE149 /* FeaturedViewController.swift */,
+				CE4CDFF72200B29A007CE149 /* FeaturedTableViewCell.swift */,
+				CED128B52200CC9E0095B5DF /* FeaturedCollectionViewCell.swift */,
+				CED128BB2200EDEA0095B5DF /* NetworkManger.swift */,
 				CE4CDFD42200AC07007CE149 /* Info.plist */,
+				CE4CDFF62200AC25007CE149 /* Supporting Files */,
 			);
 			path = shudderApp;
 			sourceTree = "<group>";
@@ -123,6 +135,17 @@
 				CE4CDFEA2200AC07007CE149 /* Info.plist */,
 			);
 			path = shudderAppUITests;
+			sourceTree = "<group>";
+		};
+		CE4CDFF62200AC25007CE149 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE4CE0002200C1E9007CE149 /* Assets.xcassets */,
+				CE4CDFD12200AC07007CE149 /* LaunchScreen.storyboard */,
+				CE4CDFF92200BE21007CE149 /* Extensions.swift */,
+				CED128BD2200FD220095B5DF /* CustomImageView.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4CDFD32200AC07007CE149 /* LaunchScreen.storyboard in Resources */,
-				CE4CDFD02200AC07007CE149 /* Assets.xcassets in Resources */,
+				CE4CE0012200C1E9007CE149 /* Assets.xcassets in Resources */,
 				CE4CDFCE2200AC05007CE149 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE4CDFCB2200AC05007CE149 /* ViewController.swift in Sources */,
+				CED128B62200CC9E0095B5DF /* FeaturedCollectionViewCell.swift in Sources */,
+				CED128BC2200EDEA0095B5DF /* NetworkManger.swift in Sources */,
+				CE4CDFF82200B29A007CE149 /* FeaturedTableViewCell.swift in Sources */,
+				CED128BE2200FD220095B5DF /* CustomImageView.swift in Sources */,
+				CE4CDFCB2200AC05007CE149 /* FeaturedViewController.swift in Sources */,
 				CE4CDFC92200AC05007CE149 /* AppDelegate.swift in Sources */,
+				CE4CDFFA2200BE21007CE149 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

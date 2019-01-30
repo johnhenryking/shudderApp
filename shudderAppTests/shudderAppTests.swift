@@ -10,6 +10,10 @@ import XCTest
 @testable import shudderApp
 
 class shudderAppTests: XCTestCase {
+    
+    func testApiKeys() {
+        XCTAssertEqual(AppDelegate.apiKey, "e0177fc2e1dd20777e96f029fe1e195b")
+    }
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

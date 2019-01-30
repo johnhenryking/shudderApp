@@ -10,10 +10,12 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    static let apiKey = "e0177fc2e1dd20777e96f029fe1e195b"
 
     var window: UIWindow?
-
-
+    static let updateFeedNotificationName = NSNotification.Name(rawValue: "updateCollectionView")
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
